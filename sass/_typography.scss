@@ -1,0 +1,115 @@
+h1, h2, h3, h4, h5, h6
+{
+    @apply
+    py-2
+    ;
+}
+h1
+{
+    @apply
+    text-DrimGray
+    font-Philosopher
+    text-3xl
+    ;
+    @media (screen(lg)) 
+    {
+        @apply 
+        text-6xl
+        ;
+    }
+}
+
+h2
+{
+    @apply
+    text-DrimGray
+    font-Philosopher
+    text-2xl
+    ;
+    @media (screen(lg)) 
+    {
+        @apply 
+        text-5xl
+        ;
+    }
+}
+
+h3
+{
+    @apply
+    text-DrimGray
+    font-Gotu
+    text-4xl
+    ;
+ 
+}
+
+h4
+{
+    @apply
+    text-DrimGray
+    font-Gotu
+    text-3xl
+    ;
+}
+
+h5, h6
+{
+    @apply
+    text-CadetGray
+    font-KiteOne
+    text-2xl
+    ;
+}
+
+p
+{
+    @apply
+    text-CadetGray
+    font-Overlock
+    text-lg
+    ;
+}
+
+a
+{
+    @apply
+    text-CadetGray
+    font-Overlock
+    text-lg
+    underline
+    cursor-BoPointing
+    ;
+}
+a:hover 
+{
+    @apply
+    text-Platinum
+    cursor-BoPointing
+    ;
+}
+
+
+@font-face 
+{
+    font-family: "Kite One";
+    src: url('../fonts/Kite_One/KiteOne-Regular.ttf') format('truetype');
+}
+
+@font-face  
+{
+    font-family: "Philosopher";
+    src: url('../fonts/Philosopher/Philosopher-Regular.ttf') format('truetype');
+}
+
+@font-face 
+{
+    font-family: "Gotu";
+    src: url('../fonts/Gotu/Gotu-Regular.ttf') format('truetype');
+}
+
+@font-face  
+{
+    font-family: "Overlock";
+    src: url('../fonts/Overlock/Overlock-Regular.ttf') format('truetype');
+}

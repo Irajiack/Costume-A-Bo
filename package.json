@@ -1,0 +1,24 @@
+{
+    "devDependencies": {
+      "sass": "^1.79.5",
+      "tailwind-scrollbar": "^3.1.0",
+      "tailwindcss": "^3.4.13"
+    },
+    "dependencies": {
+      "sortablejs": "^1.15.3"
+    },
+    "name": "costume-a-bo",
+    "version": "1.0.0",
+    "main": "tailwind.config.js",
+    "scripts": {
+      "tailwind": "npx tailwindcss build css/main.css -o css/style.css",
+      "autoprefixer": "postcss css/style.css -u autoprefixer --no-map -o css/style.css",
+      "minify": "postcss css/style.css -u cssnano --no-map -o css/style.min.css",
+      "build": "npm run tailwind && npm run autoprefixer",
+      "production": "npm run tailwind && npm run autoprefixer && npm run minify"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": ""
+  }
